@@ -1,0 +1,17 @@
+{
+  "name": "in-mem-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/db.js",
+    "start": "node src/db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "prompt": "^1.2.0"
+  }
+}
